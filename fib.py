@@ -25,7 +25,7 @@ def fib_recursive(n):
     if n == 0 or n == 1:
         return n
     else:
-        return fib(n - 1) + fib(n - 2)
+        return fib_recursive(n - 1) + fib_recursive(n - 2)
 
 # uncomment and run the non recursive function first
 #print(fib(range(100)))
