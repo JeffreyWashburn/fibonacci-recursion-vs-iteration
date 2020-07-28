@@ -31,4 +31,4 @@ def fib_recursive(n):
 #print(fib(range(100)))
 
 # to see the difference, uncomment and run the recursive version
-#print([fib(n) for n in range(100)])
+#print([fib_recursive(n) for n in range(100)])
